@@ -12,7 +12,7 @@ function Todo (props) {
   
   const getTodos = () => {
     axios 
-      .get('https://test.yarnroad.com/api/todayoffer').then((response) => {setTodo(response.data);
+      .get('https://test.yarnroad.com/api/todaylist').then((response) => {setTodo(response.data);
         })
       .catch((error) => {
         console.log(error);
