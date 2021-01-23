@@ -48,7 +48,7 @@ return(
                                                     );
                         })}
                             <li class="nav-item last-menu-bg">
-                                <span class="nav-link"><a href="#">+2 364 98 672</a></span>
+                                <span class="nav-link"><a href="tel:+919614852927">+2 364 98 672</a></span>
                             </li>
                         </ul>
                     </div>
