@@ -1,6 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './css/bootstrap.min.css';
+import './css/icofont.min.css';
+import './css/slick.css';
+import './css/slick-theme.css';
+import './css/venobox.min.css';
+import './css/style.css';
+import './css/responsive.css';
+//JavaScript
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
