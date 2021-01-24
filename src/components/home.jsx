@@ -42,8 +42,8 @@ function Home () {
         </div>
     </div></div>}>
   <TodayOffer />
+  </Suspense>
   <Banners />
- </Suspense>
 </>
     );
 }
