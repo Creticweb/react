@@ -32,8 +32,8 @@ import axios from "axios";
 					<div class="image-box clearfix">
 						<div class="box-image float-left"> <img src="img/honney.png" alt="" /> </div>
 						<div class="image-text float-left">
-							<h2>Choose food</h2>
-							<p>It is a long establed fact will distracted readable looking at layou.</p>
+							<h2>{item.name}</h2>
+							<p>{item.description}</p>
 						</div>
 					</div>
 				</div>
