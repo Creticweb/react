@@ -8,9 +8,9 @@ function Home () {
   return (
     <>
     <HomeIn />
-    <Banners />
-    <Suspense fallback={<div>Loading...</div>}>
     <DailyDeals />
+    <Suspense fallback={<div>Loading...</div>}>
+    <Banners />
     </Suspense>
      </>
     );
