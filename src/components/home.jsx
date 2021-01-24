@@ -2,6 +2,7 @@ import React,{Suspense} from "react";
 import Bubble from "../img/bubble.png";
 import burger from "../img/burger1.png";
 import TodayOffer from "./todo";
+import Banners from "./banners";
 
 function Home () {
   return (
@@ -41,6 +42,7 @@ function Home () {
         </div>
     </div></div>}>
   <TodayOffer />
+  <Banners />
  </Suspense>
 </>
     );
