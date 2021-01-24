@@ -77,4 +77,4 @@ function Today (props) {
     </>
     );
 }
-export default DailyOffers ;
+export default Today;
