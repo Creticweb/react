@@ -1,12 +1,17 @@
-import React from "react";
+import React,{ Suspense, lazy }  from "react";
 import HomeIn from "./homeslide";
 import Banners from "./banners";
+
+const DailyDeals = React.lazy(() => import('./dailyoffer'));
 
 function Home () {
   return (
     <>
     <HomeIn />
     <Banners />
+    <Suspense fallback={<div>Loading...</div>}>
+    <DailyDeals />
+    </Suspense>
      </>
     );
 }
