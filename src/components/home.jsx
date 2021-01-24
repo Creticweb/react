@@ -1,7 +1,7 @@
-import React,{Suspense} from "react";
+import React from "react";
 import Bubble from "../img/bubble.png";
 import burger from "../img/burger1.png";
-import TodayOffer from "./todo";
+//import TodayOffer from "./todo";
 import Banners from "./banners";
 
 function Home () {
@@ -33,16 +33,6 @@ function Home () {
       </div>
     </div>
   </div>
-  <Suspense fallback={<div><div class="preloader-wrap">
-        <div class="preloader">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </div></div>}>
-  <TodayOffer />
-  </Suspense>
   <Banners />
 </>
     );

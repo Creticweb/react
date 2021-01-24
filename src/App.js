@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 
 import Navbar from "./components/navbar";
-import AdminHome from "./backend/home";
+//import AdminHome from "./backend/home";
 
 
 const Home = React.lazy(() => import('./components/home'));
@@ -32,7 +32,6 @@ function App() {
           <Route path="/about" component={About}/>
           <Route path="/todo" component={Todo}/>
           <Route path="/api" component={API}/>
-          <Route path="/auth/home" component={AdminHome}/>
         </Switch>
       </Router>
      </Suspense>
