@@ -3,16 +3,16 @@ import axios from "axios";
 import TodaySpecial from "../img/Todayspecialimg.png";
 import donut from "../img/donut.png";
 
-function DailyOffers (props) {
-  const [daliy , setDaily] = useState([]);
+function Today (props) {
+  const [today , setToday] = useState([]);
   
   useEffect(() => {
-    getDaliys();
+    getTodays();
   },[]);
   
-  const getDaliys = () => {
+  const getTodays = () => {
     axios 
-      .get('https://test.yarnroad.com/api/todaylist').then((response) => {setDaily(response.data);
+      .get('https://test.yarnroad.com/api/todaylist').then((response) => {setTodays(response.data);
         })
       .catch((error) => {
         console.log(error);
@@ -20,7 +20,7 @@ function DailyOffers (props) {
   };
   return(
     <>
-      {daily.map ((item,index) => {
+      {today.map ((item,index) => {
         return (
       <div key={index} className="special-section">
         <div className="container">
