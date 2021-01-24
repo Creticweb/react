@@ -26,19 +26,19 @@ import axios from "axios";
 	<div class="container">
 		<div class="home-services">
 			<div class="form-row">
-			 {banners.map ((item,index) => {
-               return (
-				<div key="index" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
 					<div class="image-box clearfix">
-						<div class="box-image float-left"> <img src="img/honney.png" alt="" /> </div>
+                                           {banners.map ((item,index) => {
+               return (
+						<div key ="indec"class="box-image float-left"> <img src="img/honney.png" alt="" /> </div>
 						<div class="image-text float-left">
 							<h2>{item.name}</h2>
 							<p>{item.description}</p>
 						</div>
+                                             );
+            })}
 					</div>
 				</div>
-				 );
-            })}
 			</div>
 		</div>
 	</div>
