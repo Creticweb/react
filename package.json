@@ -1,5 +1,6 @@
 {
-  "name": "app",
+  "name": "React-Frontend",
+  "homepage": "https://creticweb.github.io/react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
