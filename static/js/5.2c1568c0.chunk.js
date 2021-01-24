@@ -1,0 +1,2 @@
+(this["webpackJsonpReact-Frontend"]=this["webpackJsonpReact-Frontend"]||[]).push([[5],{67:function(t,e,n){"use strict";n.r(e);var c=n(1),a=n(16),r=n(0);e.default=function(){var t=Object(r.useState)([]),e=Object(a.a)(t,2),n=e[0],s=e[1];return Object(r.useEffect)((function(){fetch("http://dummy.restapiexample.com/api/v1/employees").then((function(t){t.json().then((function(t){console.warn("result",t),s(t.data)}))}))}),[]),Object(c.jsx)(r.Fragment,{children:n.map((function(t){return Object(c.jsx)("h1",{children:t.id})}))})}}}]);
+//# sourceMappingURL=5.2c1568c0.chunk.js.map
