@@ -1,4 +1,4 @@
-import React,{ Suspense, lazy }  from "react";
+import React,{ Suspense }  from "react";
 import HomeIn from "./homeslide";
 import Banners from "./banners";
 
