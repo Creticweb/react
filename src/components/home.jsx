@@ -1,5 +1,5 @@
 import React from "react";
-import HomeIn from "./homeslider";
+import HomeIn from "./homeslide";
 import Banners from "./banners";
 
 function Home () {
