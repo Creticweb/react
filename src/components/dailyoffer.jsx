@@ -12,7 +12,7 @@ function Today (props) {
   
   const getTodays = () => {
     axios 
-      .get('https://test.yarnroad.com/api/todaylist').then((response) => {setTodays(response.data);
+      .get('https://test.yarnroad.com/api/todaylist').then((response) => {setToday(response.data);
         })
       .catch((error) => {
         console.log(error);
